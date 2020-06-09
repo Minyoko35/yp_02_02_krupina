@@ -1,0 +1,517 @@
+/* самый большой блок */
+#Back{
+position: absolute;
+width: 100%;
+height: 100%;
+background: #C4C4C4;
+
+}
+
+/* где купить билеты(фон-животные) */
+#pictAnimal{
+position: absolute;
+width: 100%;
+height: 650px;
+background-image: url("../Image/животные.jpg");
+}
+
+/* блок шапка1 */
+#aCap{
+position: relative;
+display: flex;
+flex-direction: column;
+align-items: center;
+background: rgba(120, 72, 72, 0.69);
+}
+
+/* Театр Кукол */
+.label{
+align-content:   center;
+font-weight: bold;
+font-size: 55px;
+display: flex;
+/* identical to box height, or 4% */
+letter-spacing: 0.05em;
+mix-blend-mode: normal;
+}
+
+/* Контакты */
+.contacts{
+
+width: 120px;
+font-family: Philosopher;
+font-style: normal;
+font-weight: normal;
+font-weight: bold;
+font-size: 35px;
+line-height: 4px;
+/* identical to box height, or 7% */
+color: #24FF00;
+}
+
+
+/* Скоро(фото-театр) под шапкой */
+#pictTeatre{
+position: absolute;
+width: 100%;
+height: 600px;
+background-image: url("../Image/театр.jpg")
+
+}
+
+/* Афиша */
+.poster{
+width: 120px;
+font-family: Philosopher;
+font-style: normal;
+font-weight: normal;
+font-weight: bold;
+font-size: 35px;
+line-height: 4px;
+/* or 7% */
+
+color: #24FF00;
+}
+
+/* Новости */
+.news{
+
+width: 100px;
+font-family: Philosopher;
+font-style: normal;
+font-weight: normal;
+font-weight: bold;
+font-size: 35px;
+line-height: 4px;
+/* or 7% */
+
+color: #24FF00;
+}
+
+/* О театре */
+.abTeatre{
+font-family: Philosopher;
+font-style: normal;
+font-weight: normal;
+font-weight: bold;
+font-size: 35px;
+line-height: 4px;
+/* or 7% */
+
+color: #24FF00;
+}
+
+
+/* Ещё */
+.still{
+width: 49px;
+
+font-family: Philosopher;
+font-style: normal;
+font-weight: normal;
+font-size: 35px;
+line-height: 4px;
+/* identical to box height, or 7% */
+
+color: #FFFFFF;
+}
+
+
+/* завитушка */
+.zigzag{
+
+position: absolute;
+width: 100%;
+background-blend-mode: color-burn;
+
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* цвет блока к красному */
+#pictRed{
+position: absolute;
+width: 100%;
+height: 600px;
+
+background: rgba(255, 196, 196, 0.67);
+}
+
+/* цвет блока синий */
+#pictBlue{
+position: absolute;
+width: 100%;
+height: 650px;
+
+background: rgba(0, 40, 184, 0.64);
+}
+/* подвал */
+#footer{
+position: absolute;
+width: 100%;
+height: 200px;
+
+background: rgba(124, 88, 88, 0.59);
+}
+
+/* Скоро */
+.text1{
+position: absolute;
+width: 119px;
+height: 69px;
+padding-top: 110px;
+padding-left: 140px;
+font-family: Philosopher;
+font-style: normal;
+font-weight: normal;
+font-size: 50px;
+line-height: 69px;
+
+color: #000000;
+}
+
+
+/* Спектакли пока отсутствуют */
+.text2{
+position: absolute;
+height: 40px;
+padding-top: 90px;
+padding-left: 350px;
+font-family: Philosopher;
+font-style: normal;
+font-weight: normal;
+font-size: 40px;
+line-height: 50px;
+
+color: #000000;
+}
+
+
+/* Где купить билеты */
+.text3{
+position: absolute;
+width: 198px;
+height: 15px;
+padding-left: 20px;
+font-family: Pattaya;
+font-style: normal;
+font-weight: normal;
+font-weight: bold;
+font-weight: oblique;
+font-size: 24px;
+line-height: 2px;
+/* identical to box height, or 8% */
+
+color: #FFFFFF;
+}
+
+
+/* Афиша(подвал) */
+.footerPoster{
+position: absolute;
+width: 64px;
+height: 11px;
+
+font-family: Pattaya;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 2px;
+/* or 12% */
+
+color: #EBFFB1;
+}
+
+
+/* Репертуар(подвал) */
+.footerRept{
+position: absolute;
+width: 74px;
+height: 2px;
+
+font-family: Pattaya;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 2px;
+/* identical to box height, or 12% */
+
+color: #EBFFB1;
+}
+
+
+/* Касса театра */
+.сassa{
+position: absolute;
+width: 147px;
+height: 29px;
+color:white;
+font-family: Pattaya;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 25px;
+
+color: #FFFFFF;
+}
+
+
+/* стоимость билета 200-500 рублей..*/
+.text5{
+position: absolute;
+width: 773px;
+height: 63px;
+align-items: justify;
+font-family: Philosopher;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 20px;
+text-align: justify;
+text-transform: lowercase;
+
+color: #FFFFFF;
+}
+
+
+/* Часы работы кассы*/
+.textTime{
+position: absolute;
+width: 210px;
+height: 147px;
+
+font-family: Pattaya;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 25px;
+text-transform: capitalize;
+
+color: #FFFFFF;
+}
+.cursive{
+align-items:___;
+
+
+
+}
+
+/* Адрес театра: Пермь, Сибирская, 65 */
+.textAdres{
+position: absolute;
+width: 174px;
+height: 43px;
+
+font-family: Pattaya;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 25px;
+text-transform: capitalize;
+
+color: #FFFFFF;
+}
+
+
+/* E-mail kuklindom@mail.ru */
+.eMail{
+position: absolute;
+width: 155px;
+height: 43px;
+
+font-family: Pattaya;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 25px;
+text-transform: capitalize;
+
+color: #FFFFFF;
+}
+
+
+/* Телефон кассы +7 (342) 214-58-72 */
+.phone{
+position: absolute;
+width: 283px;
+height: 71px;
+
+font-family: Pattaya;
+font-style: normal;
+font-weight: normal;
+font-size: 22px;
+line-height: 31px;
+text-transform: capitalize;
+
+color: #FFFFFF;
+}
+
+
+/* Новости(подвал) */
+.footerNews{
+position: absolute;
+width: 59px;
+height: 2px;
+
+font-family: Pattaya;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 2px;
+/* identical to box height, or 12% */
+
+color: #EBFFB1;
+}
+
+
+/* Купить, вернуть билет(подвал) */
+.buy{
+position: absolute;
+width: 162px;
+height: 2px;
+
+font-family: Pattaya;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 2px;
+/* identical to box height, or 12% */
+
+color: #EBFFB1;
+}
+
+
+/* О театре(подвал) */
+.footerAbTeatre{
+position: absolute;
+width: 84px;
+height: 3px;
+
+font-family: Pattaya;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 2px;
+/* or 12% */
+
+color: #EBFFB1;
+}
+
+
+/* Контакты(подвал) */
+.footerContacts{
+position: absolute;
+width: 77px;
+height: 2px;
+
+font-family: Pattaya;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 2px;
+/* identical to box height, or 12% */
+
+color: #EBFFB1;
+}
+
+
+/* Пользовательское соглашение(подвал) */
+.footerAgree{
+position: absolute;
+width: 258px;
+height: 5px;
+
+font-family: Pattaya;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 2px;
+/* or 12% */
+
+color: #000000;
+}
+
+
+/* Касса:(подвал) */
+.footerCassa{
+position: absolute;
+width: 165px;
+height: 2px;
+
+font-family: Pattaya;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 2px;
+/* identical to box height, or 12% */
+
+color: #000000;
+}
+
+
+/* г.Пермь(подвал) */
+.footerCity{
+position: absolute;
+width: 180px;
+height: 2px;
+
+font-family: Philosopher;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 2px;
+/* identical to box height, or 12% */
+
+color: #000000;
+}
+
+
+/* Найти на карте(подвал) */
+.footerToFind{
+position: absolute;
+width: 128px;
+height: 3px;
+
+font-family: Pattaya;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 2px;
+/* or 12% */
+text-decoration-line: underline;
+
+color: #000000;
+}
+
+
+/* kuklindom@mail.ru(подвал) */
+.footerMail{
+position: absolute;
+width: 131px;
+height: 2px;
+
+font-family: Philosopher;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 2px;
+/* identical to box height, or 12% */
+
+color: #000000;
+}
+
+
+/* МАУК (подвал) */
+.footerMauk{
+position: absolute;
+width: 220px;
+height: 2px;
+
+font-family: Philosopher;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 2px;
+/* identical to box height, or 12% */
+
+color: #000000;
+}
