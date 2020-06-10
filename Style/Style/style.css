@@ -1,0 +1,384 @@
+@media screen and (max-width: 1280px) {
+div.example {width: 1100px;}
+}
+@media screen and (max-width: 1024px) {
+div.example {width: 980px;}
+}
+
+/* самый большой блок */
+#Back{
+
+width: 100%;
+max-height: 100%;
+background: #C4C4C4;
+
+}
+
+/* блок шапка1 */
+#aCap{
+position: relative;
+display: flex;
+flex-direction: column;
+align-items: center;
+
+height: 200px;
+max-height: 60%;
+background: rgba(120, 72, 72, 0.69);
+}
+
+/* Театр Кукол */
+.label{
+align-content:   center;
+font-weight: bold;
+font-size: 55px;
+display: flex;
+/* identical to box height, or 4% */
+letter-spacing: 0.05em;
+mix-blend-mode: normal;
+}
+
+/* Контакты */
+.contacts{
+font-family: Philosopher;
+font-weight: bold;
+font-size: 35px;
+line-height: 4px;
+/* identical to box height, or 7% */
+color: #24FF00;
+}
+
+
+/* Скоро(фото-театр) под шапкой */
+#pictTeatre{
+position: absolute;
+width: 100%;
+height: 650px;
+}
+
+/* цвет блока к красному */
+#pictRed{
+position: absolute;
+width: 100%;
+height: 650px;
+
+background: rgba(255, 196, 196, 0.67);
+}
+/* Афиша */
+.poster{
+
+font-family: Philosopher;
+font-weight: bold;
+font-size: 35px;
+line-height: 4px;
+/* or 7% */
+
+color: #24FF00;
+}
+
+/* Новости */
+.news{
+font-family: Philosopher;
+font-weight: bold;
+font-size: 35px;
+line-height: 4px;
+/* or 7% */
+
+color: #24FF00;
+}
+
+/* О театре */
+.abTeatre{
+font-family: Philosopher;
+font-weight: bold;
+font-size: 35px;
+line-height: 4px;
+/* or 7% */
+
+color: #24FF00;
+}
+#abTeatre1{
+font-family: Philosopher;
+font-size: 20px;
+/* or 7% */
+
+color: #99cc00;
+}
+
+/* Ещё */
+.still{
+font-family: Philosopher;
+font-size: 35px;
+line-height: 4px;
+color: #FFFFFF;
+}
+
+
+/* завитушка */
+.zigzag{
+
+position: absolute;
+width: 100%;
+height: 200px;
+max-height: 60%;
+background-blend-mode: color-burn;
+
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* где купить билеты(фон-животные) */
+#pictAnimal{
+display: flex;
+flex-direction: column;
+align-items: center;
+position: absolute;
+width: 100%;
+height: 650px;
+}
+
+/* цвет блока синий */
+#pictBlue{
+position: absolute;
+width: 100%;
+height: 650px;
+
+background: rgba(0, 40, 184, 0.64);
+}
+
+
+/* Скоро */
+.text1{
+position: absolute;
+width: 119px;
+height: 69px;
+padding-top: 110px;
+padding-left: 140px;
+font-family: Philosopher;
+font-weight: bold;
+font-size: 55px;
+line-height: 69px;
+
+color: #000000;
+}
+
+
+/* Спектакли пока отсутствуют */
+#text2{
+position: relative;
+display: flex;
+flex-direction: column;
+align-items: center;
+padding-top: 250px;
+font-size: 40px;
+line-height: 50px;
+
+color: #000000;
+}
+
+
+/* Где купить билеты */
+.text3{
+height: 15px;
+padding-left: 40px;
+padding-top: 60px;
+font-style: normal;
+font-weight: bold;
+font-size: 40px;
+line-height: 2px;
+/* identical to box height, or 8% */
+
+color: #FFFFFF;
+}
+
+/* Касса театра */
+#cass{
+position: absolute;
+padding-top: 20px;
+padding-left: 40px;
+font-size: 24px;
+color: white;
+}
+
+/* стоимость билета 200-500 рублей..*/
+.text5{
+padding-left: 40px;
+padding-right: 50px;
+padding-top: 70px;
+font-size: 24px;
+text-align: justify;
+color: #FFFFFF;
+
+}
+
+.uprVar{
+display: flex;
+justify-content: center;
+letter-spacing: 1px;
+/*верхний внутренний отступ*/
+padding-left: 40px;
+padding-top: 70px;
+}
+
+/* Часы работы кассы*/
+.textTime{
+width: 50%;
+color: #FFFFFF;
+}
+
+.iv{
+font-size: 28px;
+font-weight: bold;
+}
+
+/* Адрес театра: Пермь, Сибирская, 65 */
+.textAdres{
+width: 50%;
+text-transform: capitalize;
+color: #FFFFFF;
+}
+
+
+/* E-mail kuklindom@mail.ru */
+.eMail{
+width: 50%;
+color: #FFFFFF;
+}
+
+
+/* Телефон кассы +7 (342) 214-58-72 */
+.phone{
+padding-left: 40px;
+padding-top: 50px;
+font-size: 55px;
+text-transform: capitalize;
+color: #FFFFFF;
+}
+
+#uprVar1{
+position: relative;
+display: flex;
+justify-content: space-between;
+align-items: center;
+/*верхний внутренний отступ*/
+padding-left: 20px;
+}
+
+#uprVar2{
+display: flex;
+  	align-items: flex-start;
+  	flex-wrap: wrap;
+	justify-content: space-between;
+width:30%;
+/*верхний внутренний отступ*/
+padding-top: 10px;
+padding-left: 10px;
+}
+
+/* подвал */
+#footer{
+position: absolute;
+width: 100%;
+background: rgba(124, 88, 88, 0.59);
+}
+
+/* Афиша(подвал) */
+.footerPoster{
+color: #EBFFB1;
+}
+
+/* Репертуар(подвал) */
+.footerRept{
+color: #EBFFB1;
+}
+
+/* Новости(подвал) */
+.footerNews{
+color: #EBFFB1;
+}
+
+
+/* Купить, вернуть билет(подвал) */
+.buy{
+padding-top: 10px;
+color: #EBFFB1;
+}
+
+
+/* О театре(подвал) */
+.footerAbTeatre{
+padding-top: 10px;
+color: #EBFFB1;
+}
+
+
+/* Контакты(подвал) */
+.footerContacts{
+padding-top: 10px;
+padding-right: 60px;
+color: #EBFFB1;
+}
+
+#uprVar3{
+display: flex;
+flex-direction: column;
+/*верхний внутренний отступ*/
+padding-top: 10px;
+padding-left: 40px;
+}
+
+
+/* Пользовательское соглашение(подвал) */
+.footerAgree{
+color: #000000;
+}
+
+
+/* г.Пермь(подвал) */
+.footerCity{
+font-size: 24px;
+padding-top: 10px;
+color: #000000;
+}
+
+
+/* Найти на карте(подвал) */
+.footerToFind{
+text-decoration-line: underline;
+padding-top:10px;
+color: #000000;
+}
+
+#uprVar4{
+display: flex;
+flex-direction: column;
+width: 30%;
+/*верхний внутренний отступ*/
+padding-top: 10px;
+padding-left: 40px;
+}
+
+/* Касса:(подвал) */
+#footerCassa{
+	font-size: 20px;
+color: #000000;
+}
+
+.white{
+font-weight: bold;	
+font-size: 28px;
+color: white;
+
+}
+/* kuklindom@mail.ru(подвал) */
+.footerMail{
+	padding-top: 10px;
+	font-size: 24px;
+color: #000000;
+}
+
+
+/* МАУК (подвал) */
+.footerMauk{
+	padding-top: 10px;
+	font-size: 24px;
+color: #000000;
+}
