@@ -9,7 +9,7 @@ div.example {width: 980px;}
 #Back{
 
 width: 100%;
-max-height: 100%;
+
 background: #C4C4C4;
 
 }
@@ -275,7 +275,7 @@ padding-left: 10px;
 
 /* подвал */
 #footer{
-position: absolute;
+position: relative;
 margin-top: 620px;
 width: 100%;
 background: rgba(124, 88, 88, 0.59);
@@ -367,8 +367,8 @@ color: #000000;
 font-weight: bold;	
 font-size: 28px;
 color: white;
-
 }
+
 /* kuklindom@mail.ru(подвал) */
 .footerMail{
 	padding-top: 10px;
