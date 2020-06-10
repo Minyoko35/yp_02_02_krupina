@@ -19,9 +19,9 @@ nav ul::after{
 
 nav ul li a {
 	display: inline-block;
-	padding: 10px 20px;
+	padding: 10px 10px;
 	text-decoration: none;
-	color:#24FF00;
+	color:#035550;
 }
 
 nav ul li a:hover{
@@ -31,6 +31,14 @@ nav ul li a:hover{
 	display: flex;
 	justify-content: space-between;
 	margin-top: 60px;
+}
+.topmenu1{
+	display: flex;
+	justify-content: space-between;
+align-items: center;
+padding-left: 40px;
+padding-right: 40px;
+	background-color: #E1F5F2;
 }
 .topmenu > li {
   float: left;

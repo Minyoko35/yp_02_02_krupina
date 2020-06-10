@@ -1,0 +1,128 @@
+@media screen and (max-width: 1280px) {
+div.example {width: 1100px;}
+}
+@media screen and (max-width: 1024px) {
+div.example {width: 980px;}
+}
+
+/* самый большой блок */
+#Back{
+
+width: 100%;
+max-height: 100%;
+background: #C4C4C4;
+}
+
+/* блок шапка1 */
+#aCap{
+position: relative;
+display: flex;
+flex-direction: column;
+align-items: center;
+
+height: 200px;
+max-height: 60%;
+background: rgba(120, 72, 72, 0.69);
+}
+
+/* Театр Кукол */
+.label{
+align-content:   center;
+font-weight: bold;
+font-size: 55px;
+display: flex;
+/* identical to box height, or 4% */
+letter-spacing: 0.05em;
+mix-blend-mode: normal;
+}
+
+/* Контакты */
+.contacts{
+font-family: Philosopher;
+font-weight: bold;
+font-size: 35px;
+line-height: 4px;
+/* identical to box height, or 7% */
+color: #24FF00;
+}
+
+
+/* цвет блока к красному */
+#pictRed2{
+	position: relative;
+width: 100%;
+background-color: #210124a9;
+}
+
+#abTeatre1{
+font-family: Philosopher;
+font-size: 20px;
+/* or 7% */
+
+color: #99cc00;
+}
+
+/* Сцена */
+.still2{
+font-family: Philosopher;
+font-weight: bold;
+font-size: 35px;
+/* or 7% */
+
+color: #035550;
+}
+
+
+#text7{
+
+	font-size: 28px;
+	padding-top: 100px;
+padding-right: 40px;
+	padding-left: 40px;
+	color: white;
+}
+
+#glavText{
+padding-left: 30px;
+padding-right: 30px;
+}
+
+.img3{
+	width: 900px;
+	height: 600px;
+	display: block;
+	margin: 0 auto;
+	padding-top: 60px;
+}
+
+
+#text8{
+height: 15px;
+padding-left: 40px;
+padding-top: 60px;
+font-style: normal;
+font-weight: bold;
+font-size: 50px;
+line-height: 2px;
+/* identical to box height, or 8% */
+
+color: white;
+}
+
+/* Касса театра */
+#cass1{
+position: absolute;
+padding-top: 20px;
+padding-bottom: 40px;
+padding-left: 40px;
+font-size: 24px;
+color: white;
+}
+
+
+/* подвал */
+#footer1{
+position: absolute;
+width: 100%;
+background: rgba(124, 88, 88, 0.59);
+}
