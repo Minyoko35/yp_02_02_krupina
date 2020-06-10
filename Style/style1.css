@@ -28,6 +28,8 @@ nav ul li a:hover{
 	background-color: #950740;
 }
 .topmenu{
+	display: flex;
+	justify-content: space-between;
 	margin-top: 60px;
 }
 .topmenu > li {
