@@ -17,14 +17,14 @@ nav ul::after{
 	clear: both;
 }
 
-nav ul li a {
+.submenu  li a {
 	display: inline-block;
 	padding: 10px 10px;
 	text-decoration: none;
 	color:#035550;
 }
 
-nav ul li a:hover{
+.submenu li :hover{
 	background-color: #950740;
 }
 .topmenu{
@@ -32,6 +32,7 @@ nav ul li a:hover{
 	justify-content: space-between;
 	margin-top: 60px;
 }
+
 .topmenu1{
 	display: flex;
 	justify-content: space-between;
